@@ -4,7 +4,7 @@
     padding: 0;
 }
 body {
-    background: hsl(257, 40%, 49%) url(./images/bg-desktop.svg) no-repeat;
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat;
     width: auto;
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
@@ -22,20 +22,17 @@ h1 {
     padding: 20px 0 0 30px;
 }
 .box {
-    /* border: 1px solid; */
     display: flex;
     width: 95%;
     height: 60%;
     margin: 1.8rem 1.8rem 1.8rem 2.5rem ;
 }
 .img-box {
-    /* border: 1px solid; */
     width: auto;
     height: auto;
 }
 
 .info-box {
-    /* border: 1px solid; */
     margin: 2.5rem 1.3rem 0 2.2rem;
     line-height: 30px;
     padding:1.6rem 1.6rem 0.6rem 1.5rem;
@@ -87,15 +84,14 @@ i:hover {
 }
 
 
-/* responsiveness: i promise, i have no idea how i did anything in this section */
+/* responsiveness */
 @media only screen and (max-width: 600px) {
     body {
-        background: hsl(257, 40%, 49%) url(./images/bg-mobile.svg) no-repeat;
+        background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) no-repeat;
         width: auto;
         height: 90vh;
     }
     .logo {
-       /*  border: 1px solid; */
         margin: 0.6rem 0;
         padding: 0 2.5rem;
     }
@@ -103,7 +99,6 @@ i:hover {
         max-width: 25%;
     }
     .box {
-       /*  border: 1px solid; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -114,12 +109,8 @@ i:hover {
     img {
         max-width: 100%;
         height: auto;
-      }
-    /* .img-box {
-        border: 1px solid;
-    } */
+     }
     .info-box {
-       /* border: 1px solid; */
         width: 100%;
         margin: 0;
         line-height: normal;
