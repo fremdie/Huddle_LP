@@ -97,7 +97,7 @@ i:hover {
         padding: 0 2.5rem;
     }
     .logo img {
-        max-width: 35%;
+        max-width: 30%;
     }
     .box {
         flex-direction: column;
